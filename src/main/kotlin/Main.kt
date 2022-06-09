@@ -1,6 +1,6 @@
 fun main() {
     val previousPayments = 10_000_00
-    val sum = 10_000_00
+    val sum = 11_000_00
     val cardType = CardType.MASTERCARD
 
     val commission = calculateCommission(previousPayments, sum, cardType)
