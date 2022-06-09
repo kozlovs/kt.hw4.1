@@ -41,7 +41,7 @@ class MainKtTest {
         val cardType = CardType.MAESTRO
 
         val commission = calculateCommission(previousPayments, sum, cardType)
-        assertEquals(9000, commission)
+        assertEquals(8000, commission)
     }
 
     @Test

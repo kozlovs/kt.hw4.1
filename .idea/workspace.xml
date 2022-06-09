@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b6309725-939d-4b34-ae3d-329246935bde" name="Changes" comment="Commit 1">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="b6309725-939d-4b34-ae3d-329246935bde" name="Changes" comment="broken test calculateCommissionMaestroNotPromo" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,9 +58,10 @@
     <option name="myCommands">
       <command value="gradle test" />
       <command value="gradle jacocoTestReport" />
+      <command value="gradle test jacocoTestReport" />
     </option>
   </component>
-  <component name="RunManager" selected="Gradle.money_transfer_3 [jacocoTestReport]">
+  <component name="RunManager" selected="Gradle.money_transfer_3 [test jacocoTestReport]">
     <configuration name="money_transfer_3 [jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -74,6 +73,28 @@
         </option>
         <option name="taskNames">
           <list>
+            <option value="jacocoTestReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="money_transfer_3 [test jacocoTestReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="test" />
             <option value="jacocoTestReport" />
           </list>
         </option>
@@ -114,6 +135,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.money_transfer_3 [test jacocoTestReport]" />
         <item itemvalue="Gradle.money_transfer_3 [jacocoTestReport]" />
         <item itemvalue="Gradle.money_transfer_3 [test]" />
         <item itemvalue="Kotlin.MainKt" />
@@ -136,7 +158,21 @@
       <option name="project" value="LOCAL" />
       <updated>1654778360434</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Test CI">
+      <created>1654779160673</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1654779160673</updated>
+    </task>
+    <task id="LOCAL-00003" summary="broken test calculateCommissionMaestroNotPromo">
+      <created>1654779482997</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1654779482997</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,6 +188,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Commit 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Commit 1" />
+    <MESSAGE value="Test CI" />
+    <MESSAGE value="broken test calculateCommissionMaestroNotPromo" />
+    <option name="LAST_COMMIT_MESSAGE" value="broken test calculateCommissionMaestroNotPromo" />
   </component>
 </project>
